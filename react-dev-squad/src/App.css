@@ -1,0 +1,61 @@
+@import "./css/postit.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #2d7cf6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+
+.section-to-recap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.student-section-list > li,
+student-section-headers {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-section-headers > :nth-child(1),
+.student > :nth-child(1) {
+  width: 20%;
+}
+
+.student-section-headers > :nth-child(2),
+.student > :nth-child(2) {
+  width: 20%;
+}
+
+.student-section-headers > :nth-child(3),
+.student > :nth-child(3) {
+  width: 40%;
+}
+
+.student {
+  border-bottom: 1px solid gray;
+}
+
+.student-section-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.student-section-title {
+  text-align: left;
+}

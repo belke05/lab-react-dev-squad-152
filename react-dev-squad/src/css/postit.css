@@ -1,0 +1,41 @@
+.post-it {
+  margin: 2% 2%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  position: relative;
+}
+
+#topics-wrapper {
+  display: flex;
+}
+.section-to-recap h2 {
+  margin-top: 2%;
+}
+
+.white {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 28px;
+  left: 8px;
+}
+
+/* .black {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 28px;
+  left: 10px;
+} */
+
+.black {
+  width: 0;
+  border-bottom: 12px solid red;
+  border-left: 6px solid white;
+  border-right: 6px solid white;
+}
